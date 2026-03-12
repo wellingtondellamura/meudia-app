@@ -1,0 +1,41 @@
+{
+  "data": {
+    "proxima_consulta": {
+      "id": 45,
+      "data": "2026-03-05",
+      "hora_inicio": "09:00",
+      "hora_fim": "09:30",
+      "status": "agendado",
+      "status_label": "Agendado",
+      "profissional": "Dra. Ana Paula",
+      "unidade": "UBS Vila Nova",
+      "confirmado_em": null
+    },
+    "plano_resumido": {
+      "consulta_id": 12,
+      "data": "2026-03-10",
+      "diagnosticos": [
+        {
+          "titulo": "DM2 descompensado",
+          "planos": ["Controle glicêmico rigoroso"],
+          "prescricoes": ["Verificar glicemia 3x/dia"]
+        }
+      ]
+    },
+    "ultima_glicemia": {
+      "id": 15,
+      "valor": 145,
+      "momento": "jejum",
+      "registrado_em": "2026-02-23 07:15:00",
+      "origem": "app"
+    },
+    "risco": "alto",
+    "alertas": [
+      {
+        "tipo": "hba1c_alta",
+        "nivel": "vermelho",
+        "mensagem": "Última HbA1c muito elevada: 8.5%."
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - build/**
+
+linter:
+  rules:
+    lines_longer_than_80_chars: false
+    public_member_api_docs: false
+    avoid_redundant_argument_values: false
+    one_member_abstracts: false
+    sort_constructors_first: false
+    always_use_package_imports: false
+    avoid_catches_without_on_clauses: false
+    avoid_dynamic_calls: false
+    depend_on_referenced_packages: false
+    directives_ordering: false
+    prefer_const_constructors: false
+    sort_pub_dependencies: false
+    specify_nonobvious_property_types: false
+    unawaited_futures: false
